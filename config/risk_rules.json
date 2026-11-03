@@ -1,0 +1,30 @@
+{
+  "weights": {
+    "high_amount": 25,
+    "very_high_amount": 35,
+    "high_velocity": 20,
+    "risky_country": 20,
+    "country_mismatch": 15,
+    "night_transaction": 10,
+    "new_account": 10,
+    "high_risk_customer": 25
+  },
+  "thresholds": {
+    "high_amount": 5000,
+    "very_high_amount": 10000,
+    "velocity_count_24h": 5,
+    "new_account_days": 30,
+    "night_start_hour": 0,
+    "night_end_hour": 5
+  },
+  "risk_levels": {
+    "low_max": 19,
+    "medium_max": 39,
+    "high_max": 69
+  },
+  "risky_countries": [
+    "IR",
+    "KP",
+    "SY"
+  ]
+}
